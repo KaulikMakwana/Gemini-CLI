@@ -69,10 +69,12 @@ you can use and customise using json config file for ease automation.
    - Use `@load_privious_history` to load a previous chat history.
    - Use `@delete_history` to delete chat history.
    - In the shell integration mode (`-shell`), provide prompts for Linux commands or penetration testing tasks.
+    ![Demo](https://github.com/KaulikMakwana/Gemini-CLI/blob/main/demo/interactive.gif)
 
 
 ### using standalone session
 - python geminicli.py -p 'what is internet' -s 'you are expert in technology' -o internet.md
+  ![Demo](https://github.com/KaulikMakwana/Gemini-CLI/blob/main/demo/stand_alone.gif)
 
 ### with files
 - python geminicli.py -p 'analyse uploaded file and tell me what can you see' -s 'you are expert in technology' -f 'demo.jpg' -o internet.md
