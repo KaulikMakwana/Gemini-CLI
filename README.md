@@ -140,6 +140,6 @@ gemini-2.0-flash-exp,
  [✔] 2.0 and experimental Models
 gemini-2.0-flash-thinking-exp,  gemini-2.0-flash-thinking-exp-1219,  learnlm-1.5-pro-experimental,
 ```
-(https://github.com/KaulikMakwana/Gemini-CLI/blob/main/demo/interactive.png)
-(https://github.com/KaulikMakwana/Gemini-CLI/blob/main/demo/cli.png)
+![Interactive chat](https://github.com/KaulikMakwana/Gemini-CLI/blob/main/demo/interactive.png)
+![cli](https://github.com/KaulikMakwana/Gemini-CLI/blob/main/demo/cli.png)
   
