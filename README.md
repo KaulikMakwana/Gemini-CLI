@@ -82,4 +82,64 @@ you can use and customise using json config file for ease automation.
 ### list and delete files
 - python geminicli.py -lf -df
 
+##Gemini-Cli 
+
+```bash
+~/myenv/bin/python geminicli.py --help                                                                                                                    ─╯
+usage: gemini-cli [-h] [-p PROMPT] [--update] [-o OUTPUT] [-c CONFIG] [-s SYSTEM_INSTRUCTION] [-m MODEL] [-rm {text/plain,application/json}] [-top_p TOP_P]
+                  [-top_k TOP_K] [-max_tokens MAX_OUTPUT_TOKENS] [-temp TEMPERATURE] [-f FILES] [-lf] [-df] [-chat] [-shell]
+
+Google Gemini CLI...
+
+options:
+  -h, --help            show this help message and exit
+  -p PROMPT, --prompt PROMPT
+                        Prompt for Gemini.
+  --update              Update Gemini CLI for a new version.
+  -o OUTPUT, --output OUTPUT
+                        Save Gemini response in a file.
+  -c CONFIG, --config CONFIG
+                        Configuration file for Gemini.
+
+Model Configuration Options:
+  -s SYSTEM_INSTRUCTION, --system_instruction SYSTEM_INSTRUCTION
+                        Set system instruction for Gemini.
+  -m MODEL, --model MODEL
+                        Model to use for Gemini.
+  -rm {text/plain,application/json}, --response_mimetype {text/plain,application/json}
+                        Response MIME type for Gemini response.
+  -top_p TOP_P, --top_p TOP_P
+                        Set top_p.
+  -top_k TOP_K, --top_k TOP_K
+                        Set top_k.
+  -max_tokens MAX_OUTPUT_TOKENS, --max_output_tokens MAX_OUTPUT_TOKENS
+                        Set max output tokens.
+  -temp TEMPERATURE, --temperature TEMPERATURE
+                        Temperature for more creativity.
+
+File-Related Options:
+  -f FILES, --files FILES
+                        Upload file to Gemini.
+  -lf, --list_files     List all uploaded files from Gemini.
+  -df, --delete_files   Delete all uploaded files from Gemini.
+
+Interactive Chat Mode:
+  -chat                 Enable interactive chat mode.
+
+Shell Intigration:
+  -shell                enable shell intigration where gemini can possible to automate your linux another tasks.
+
+ [ℹ] Models Supported by gemini Listed below...
+ [✔] Flash Models
+gemini-1.5-flash, gemini-1.5-flash-001 , gemini-1.5-flash-001-tuning, gemini-1.5-flash-002,
+gemini-1.5-flash-8b, gemini-1.5-flash-8b-001,  gemini-1.5-flash-8b-exp-0827, gemini-1.5-flash-8b-exp-0924,
+gemini-1.5-flash-8b-latest,  gemini-1.5-flash-latest,
+ [✔] Pro Models
+gemini-1.5-pro,  gemini-1.5-pro-latest,  gemini-1.5-pro-001, gemini-1.5-pro-002,
+gemini-2.0-flash-exp,
+ [✔] 2.0 and experimental Models
+gemini-2.0-flash-thinking-exp,  gemini-2.0-flash-thinking-exp-1219,  learnlm-1.5-pro-experimental,
+```
+(https://github.com/KaulikMakwana/Gemini-CLI/blob/main/demo/interactive.png)
+(https://github.com/KaulikMakwana/Gemini-CLI/blob/main/demo/cli.png)
   
