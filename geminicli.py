@@ -342,11 +342,12 @@ class GeminiCLI:
         """interactive cli for google gemini api"""
         try:
             print(f"{Styles.INFO} Gemini-cli ....{Styles.RESET}")
-            print(f"""{Styles.PROMPT}- ctrl^c or @exit To exit. 
-Press ctrl^n to new line and press enter to submit prompt.
-Press @help for more information.
-> @ and tab for command completion.
- {Styles.RESET}""")
+            print(f"""{Styles.PROMPT}
+            - ctrl^c or @exit To exit. 
+            - ctrl^n to new line and press enter to submit prompt.
+            - @help for more information.
+            - @ and tab for command completion. 
+             {Styles.RESET}""")
             session_completer = ['@go_back','@help','@save_load_or_delete_history',
                                  '@upload_list_or_delete_files',
                                 '@exit']
