@@ -1,0 +1,12 @@
+{
+  "prompt": "analyse this images and explain me in five words.",
+  "system_instruction": "you are mature and smart guy!!",
+  "model_to_use": "gemini-1.5-flash-001",
+  "response_mimetype": "text/plain",
+  "temperature": 0.7,
+  "top_p": 0.5,
+  "top_k": 40,
+  "max_output_tokens": 8192,
+  "output": "responses.txt",
+  "upload_files":["/home/user/Pictures/code.png","/home/Pictures/code2.jpg"]
+}
