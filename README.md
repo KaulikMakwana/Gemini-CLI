@@ -4,7 +4,7 @@
 
 very flexible command-line interface (CLI) for Google Gemini
 
-Gemini-CLI is an advanced command-line interface framework developed to interact with Google's Gemini native AI models. It improves workflows by combining bat-and-pop sessions with AI technology. Archive operations and Linux shell integration. Designed with penetration testers and developers in mind, Gemini-CLI gives users the ability to execute scripts, execute commands, and manage files completely.
+Gemini-CLI is a sophisticated command-line interface framework that allows for smooth interaction with Google's Gemini native AI models. It improves workflows by combining AI-driven automation with strong support for archive operations and Linux shell integration. Designed specifically for penetration testers and developers, Gemini-CLI enables users to run scripts, execute commands, and manage files both efficiently and effectively.
 
 ## features
 
@@ -141,5 +141,6 @@ gemini-2.0-flash-exp,
 gemini-2.0-flash-thinking-exp,  gemini-2.0-flash-thinking-exp-1219,  learnlm-1.5-pro-experimental,
 ```
 ![Interactive chat](https://github.com/KaulikMakwana/Gemini-CLI/blob/main/demo/interactive.png)
+
 ![cli](https://github.com/KaulikMakwana/Gemini-CLI/blob/main/demo/cli.png)
   
