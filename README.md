@@ -1,4 +1,14 @@
 # Gemini-CLI
+# ⚠️ Project Discontinued
+
+> **Notice:** This project is no longer maintained.
+
+Google has officially released its own Gemini CLI tool, making this project obsolete.  
+Check out the official version here:  
+🔗 [https://github.com/google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)
+
+This repository will remain public as an archive of my previous work.
+
 [![Python](https://img.shields.io/badge/python-3.12-blue)]()
 [![License](https://img.shields.io/badge/license-MIT-green)]()
 
